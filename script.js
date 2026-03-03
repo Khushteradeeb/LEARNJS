@@ -77,7 +77,7 @@ let lastName = "Adeeb"
 // INCLUDE METHOD 
 
 //console.log(result.includes("reading"))
-
+ 
 // let fullName = "WowProgrammer"
 
 //console.log(fullName.slice(0,8)) // Excluding last one 0-8
@@ -89,4 +89,28 @@ let lastName = "Adeeb"
 // console.log("original String = ",fullName)
 // console.log("Extracted String =",result)
 
- console.log("JUST Testing")
+ // ***** STRING SPLIT METHOD *****
+
+//  let favriteColor = " Brown, Blue, Black, Gray";
+//  let arrColors = favriteColor.split('  ');
+//  console.log(arrColors) 
+
+
+// ***** JAVASCRIPT STRING ARE IMUTABLE **********
+
+//let str = "Hello";
+
+// str[0] = "p";
+// str[1] = "q";
+// There will be no change in "str" variable
+//console.log(str)
+
+//str = str + "Programmer";
+
+//console.log(str) // if you add previous String into new string then New String will be assigned 
+//  into new memory location 
+
+
+
+// ********** NUMBERS  ***************************
+
