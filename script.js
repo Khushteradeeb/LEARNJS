@@ -114,3 +114,58 @@ let lastName = "Adeeb"
 
 // ********** NUMBERS  ***************************
 
+let score = 50;
+
+// console.log(score, typeof score)
+
+// let result = score / 2; // give quotient
+// let reult = score%2;  // give remainder
+
+// **  MATHEMATICAL EXPRESSION  ***
+
+ //let result = score *2 + (4*3) - 8 / 2 % 4;
+ // Using PRIORITY anD PRECEDENCE
+ // 1 () bracket (paranthesis)
+ // 2 ** Power Operator
+ // 3 * / % ( from left to reight)
+ // 4 + - ( from left to right)
+
+// console.log(result);
+
+// CONCATENATION OF NUMBERS
+
+// let resultline = 'My total score is ' + result;
+// console.log(resultline);
+
+
+// **** LOOSE EQUALITY (==) & STRICT EQUALITY OPERATOR (===)
+
+// LOOSE EQUALITY OPERATOR ==
+// let age = 22;
+// console.log(age == "22") // focus only on value not on type
+// console.log(age != "22")
+
+// console.log(age === "22"); // focus on both value & its type 
+// console.log(age !== "22")
+
+
+// ******** TYPE CONVERSION. ***********
+
+// let stringType = "54";
+// console.log(stringType, typeof stringType);
+
+// // NUMBER METHOD 
+
+// let numberType = Number(stringType);
+// console.log(numberType, typeof numberType);
+
+// IMP NOTES
+// IN number method passing string must be of numric values
+
+// let numberType = 54;
+//  console.log(numberType); 
+// // STRING METHOD
+// let stringType = String(numberType);
+// console.log(stringType, typeof stringType);
+
+// ***** BOOLEAN METHOD ********
