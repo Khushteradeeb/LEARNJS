@@ -5,7 +5,7 @@
 //console.log( score)
 
 //let points = 23; 
-//console .log(points)   
+//console .log(points)    
    
 // Constant value = 10;
 
@@ -42,8 +42,8 @@ STRING
 *********************/
 
 // console.log("Hi Adeeb")
-let firstName = "Khushter"
-let lastName = "Adeeb"
+//let firstName = "Khushter"
+//let lastName = "Adeeb"
 // console.log(firstName,lastName)
 // STRING CANCATINATION *************
   
