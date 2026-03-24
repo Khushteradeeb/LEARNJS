@@ -114,7 +114,7 @@ STRING
 
 // ********** NUMBERS  ***************************
 
-let score = 50;
+//let score = 50;
 
 // console.log(score, typeof score)
 
@@ -169,3 +169,46 @@ let score = 50;
 // console.log(stringType, typeof stringType);
 
 // ***** BOOLEAN METHOD ********
+//let age = " "; [Empty String will be false]
+// let age =23;
+// let booleanValueOfAge = Boolean(age);
+// console.log("Boolean Value of Age is" , booleanValueOfAge);
+
+// ******** ARRAY  ********************
+
+let dishes = ["Biriyani","chat","parathay"];
+// Access
+//console.log(dishes[2]);
+
+// Modify the Array
+dishes[0] = "karhai";
+//console.log(dishes);
+
+// Array Methods
+ 
+// JOIN METHOD
+//console.log(dishes.join(' '))
+
+// indexOf()
+//console.log(dishes.indexOf("chat"));
+
+// CONCAT METHOD
+let newDishes = ["Sweet-Dish"," Pani poori"];
+
+console.log(dishes.concat(newDishes)); 
+let updatedDishes = dishes.concat(newDishes);
+
+
+
+// Length Method
+//console.log(dishes.length)
+//console.log(updatedDishes.length)
+
+// Push Method
+//console.log(updatedDishes.push("Bhallay")) // return new length
+//console.log(updatedDishes);
+
+// POP Method
+console.log(dishes.pop)
+console.log(dishes)
+
