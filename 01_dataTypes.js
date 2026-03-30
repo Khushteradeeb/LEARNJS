@@ -176,12 +176,12 @@ STRING
 
 // ******** ARRAY  ********************
 
-let dishes = ["Biriyani","chat","parathay"];
+//let dishes = ["Biriyani","chat","parathay"];
 // Access
 //console.log(dishes[2]);
 
 // Modify the Array
-dishes[0] = "karhai";
+// dishes[0] = "karhai";
 //console.log(dishes);
 
 // Array Methods
@@ -193,10 +193,10 @@ dishes[0] = "karhai";
 //console.log(dishes.indexOf("chat"));
 
 // CONCAT METHOD
-let newDishes = ["Sweet-Dish"," Pani poori"];
+//let newDishes = ["Sweet-Dish"," Pani poori"];
 
-console.log(dishes.concat(newDishes)); 
-let updatedDishes = dishes.concat(newDishes);
+//console.log(dishes.concat(newDishes)); 
+//let updatedDishes = dishes.concat(newDishes);
 
 
 
@@ -209,6 +209,26 @@ let updatedDishes = dishes.concat(newDishes);
 //console.log(updatedDishes);
 
 // POP Method
-console.log(dishes.pop)
-console.log(dishes)
+//console.log(dishes.pop)
+//console.log(dishes)
+
+// Method Returning Boolean Values
+//let email = "user@gmail.com";
+//let booleanValue = email.includes("@"); // Returns true if "@" is found in the string
+//console.log(booleanValue);
+
+
+// Comparision operators always return boolean values
+// let number1 = 33;
+// console.log(number1 == "33") //true
+// console.log(number1 === "33") // true
+// console.log(number1 != "333") // true
+// console.log(number1 <= "333") // true
+// console.log(number1 >= "23") // true
+
+
+
+
+
+
 
