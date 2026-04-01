@@ -45,3 +45,101 @@
 //     console.log("Atleast run one time", j);
 // j++;
 // }while(j<=1) Condition false already
+
+//. * "if", "if else", "else if" & nested if Statements *
+
+  // let hotelPrice = 8000;
+  // if(hotelPrice > 7000){
+  //   console.log("we will eat");
+  //   if (hotelPrice > 3000){
+  //     console.log("budget is ok");
+  //     if(hotelPrice>9000){
+  //       console.log("forget party");
+  //     }
+  //   }
+  // }
+  // else if(hotelPrice >3000){
+  //   console.log("we will not eat");
+  // }
+  // else {
+  //   console.log(" we don't have budget");
+  // }
+  
+  
+  
+  
+  
+  
+    //  Break and continue Statements 
+    // Also called as JUMP STATEMENT 
+    
+    //  continue *
+    // for(let i = 1; i<=10; i++){
+    //   if(i==5){
+    //     continue;// move forward the next StopIteration
+    //   }console.log("Value of i = ", i);
+    // }
+  
+  
+  // BREAK
+  // used to terminate the loop controll tranfer from outside
+  
+  // for(let i= 1; i <=10; i++){
+  //   if (i ==5){
+  //     console.log(" our desired value is ",i);
+  //     break;
+  //   }
+  //   console.log("value of i =", i);
+  // }
+  //     console.log("now we are out of loop");
+
+
+  
+  // *LOGICAL OPERATOR *
+  // ADD &&,  OR || , NOT !
+  
+  //let password = "@Adeeb1";
+  
+  // if(password.length > 5 && password.includes('@')){
+  //   console.log("Password is strong")
+    
+  // }else{
+  //   console.log(" change your Password");
+  // }
+  
+  // if(password.length > 9 || password.includes('z')){
+  //   console.log("Password is strong")
+    
+  // }else{
+  //   console.log(" change your Password");
+  // }
+  
+  // * NOT OPERATOR. (.! ) ***
+   
+  // let status = false;
+  // if(!status){
+  //   console.log(" Your status is = ", status)
+  // }
+
+//  // Example
+// let result = true && true || false && !false  
+// result = true && true || false && true
+// result = true || false && true
+// result true && true
+// console.log(result);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
