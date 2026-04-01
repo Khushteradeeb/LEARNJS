@@ -128,8 +128,59 @@
 // result true && true
 // console.log(result);
 
+// VARIABLE AND BLOCK SCOPE
+
+// Scope is the area where a variable is defined or accessible.
+
+// let score = 99;   //Global Scope
+
+// if(true){
+
+//   let score = 77; //Block Scope
+
+//   console.log(score); // Nearest value of score is 77
+// }
+
+// ternary Operators (? , :)
+
+//let age =40;
+//let weight = 9  0;
+// if(age > 31){
+//   console.log("Qualify");
+// }else{
+//   console.log("fail");
+// }
+
+// Single line Solution
+ 
+let result = age > 31 ? weight > 80 ? "qualify" :" weightIssue " : "fail";
+//console.log(result); 
 
 
+//**** SWITCH STATEMENT *****/
+// It is used in compatitive " conditional" statements.
+
+// let currentDate = new Date();
+
+// // let weekDay = currentDate.getDay(); // 0 to 6
+
+// let age = 15;
+
+// switch(age){
+// case 15 :
+// case 16 :
+// case 17 :
+// result = "These ages are allowed to in the exam ";
+//    break;
+
+//    default:
+//     result = "Not allowed"
+
+// }
+
+
+// If there is no Break statement than next next case will be executed
+//console.log(day)
 
 
 
