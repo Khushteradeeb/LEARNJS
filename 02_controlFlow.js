@@ -142,7 +142,7 @@
 // }
 
 // ternary Operators (? , :)
-
+ 
 //let age =40;
 //let weight = 9  0;
 // if(age > 31){
@@ -153,7 +153,7 @@
 
 // Single line Solution
  
-let result = age > 31 ? weight > 80 ? "qualify" :" weightIssue " : "fail";
+// let result = age > 31 ? weight > 80 ? "qualify" :" weightIssue " : "fail";
 //console.log(result); 
 
 
@@ -174,10 +174,10 @@ let result = age > 31 ? weight > 80 ? "qualify" :" weightIssue " : "fail";
 //    break;
 
 //    default:
-//     result = "Not allowed"
+//     result = "Not Allowed"
+//  
 
 // }
-
 
 // If there is no Break statement than next next case will be executed
 //console.log(day)
